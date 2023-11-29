@@ -35,7 +35,7 @@ const AboutUs = () => (
       <div className="items-center flex flex-wrap">
         <div className="w-full lg:w-1/2 px-4 ml-auto mr-auto text-center">
           <div>
-            <h1 className="font-md text-2xl text-gray-700 py-8">
+            <h1 className="font-md text-2xl text-gray-700 py-4">
               About us
             </h1>
             <h1 className="font-semibold text-4xl">
