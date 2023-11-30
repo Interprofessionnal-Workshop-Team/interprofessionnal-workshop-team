@@ -212,7 +212,7 @@ const GalleryCarousel = () => (
                         SCRUBS_NIGHT_NOVEMBER_2023.map((elt) => (
                             <>
                                 <div className="hs-carousel-slide flex justify-center p-2">
-                                    <Image className="rounded-2xl w-auto h-full" src={elt.img_url} alt='img' key={elt.img_url} />
+                                    <Image className="rounded-2xl w-auto h-full" width={0} height={0} sizes="100vw" src={elt.img_url} alt='img' key={elt.img_url} />
                                 </div>
                             </>
                         ))
@@ -238,11 +238,11 @@ const GalleryCarousel = () => (
                 </span>
             </button>
 
-            <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
+            {/* <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
                 <span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-gray-400 rounded-full cursor-pointer"></span>
                 <span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-gray-400 rounded-full cursor-pointer"></span>
                 <span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-gray-400 rounded-full cursor-pointer"></span>
-            </div>
+            </div> */}
         </div>
 
     </>
