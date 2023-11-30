@@ -113,51 +113,51 @@ export const SOCIALS = {
 // Scrubs Night November 2023
 export const SCRUBS_NIGHT_NOVEMBER_2023 = [
   {
-    img_url: "/events/scrubs_night/november_2023/0.jpg",
+    img_url: "/events/scrubs_night/november_2023/0.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/1.jpg",
+    img_url: "/events/scrubs_night/november_2023/1.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/2.jpg",
+    img_url: "/events/scrubs_night/november_2023/2.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/3.jpg",
+    img_url: "/events/scrubs_night/november_2023/3.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/4.jpg",
+    img_url: "/events/scrubs_night/november_2023/4.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/5.jpg",
+    img_url: "/events/scrubs_night/november_2023/5.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/6.jpg",
+    img_url: "/events/scrubs_night/november_2023/6.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/7.jpg",
+    img_url: "/events/scrubs_night/november_2023/7.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/8.jpg",
+    img_url: "/events/scrubs_night/november_2023/8.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/9.jpg",
+    img_url: "/events/scrubs_night/november_2023/9.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/10.jpg",
+    img_url: "/events/scrubs_night/november_2023/10.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/11.jpg",
+    img_url: "/events/scrubs_night/november_2023/11.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/12.jpg",
+    img_url: "/events/scrubs_night/november_2023/12.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/13.jpg",
+    img_url: "/events/scrubs_night/november_2023/13.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/14.jpg",
+    img_url: "/events/scrubs_night/november_2023/14.JPG",
   },
   {
-    img_url: "/events/scrubs_night/november_2023/15.jpg",
+    img_url: "/events/scrubs_night/november_2023/15.JPG",
   },
 ]
