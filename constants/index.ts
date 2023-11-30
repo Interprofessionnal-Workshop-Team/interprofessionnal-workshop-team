@@ -15,49 +15,49 @@ export const BOARD = [
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
   {
     name: 'Maéva Schürmann',
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
   {
     name: 'Maéva Schürmann',
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
   {
     name: 'Maéva Schürmann',
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
   {
     name: 'Maéva Schürmann',
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
   {
     name: 'Maéva Schürmann',
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
   {
     name: 'Maéva Schürmann',
     title: 'Minister',
     description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
+    img_url: '/team/maeva.JPG'
   },
 ]
 
