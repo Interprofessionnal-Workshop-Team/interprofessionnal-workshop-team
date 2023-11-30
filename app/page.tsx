@@ -1,11 +1,13 @@
+import Link from "next/link"
+
 const Home = () => (
   <>
     <main>
       <Hero />
-      <Services />
+      {/* <Services />
       <Featured />
       <Finisher />
-      <Contact />
+      <Contact /> */}
     </main>
   </>
 )
@@ -24,18 +26,25 @@ const Hero = () => (
       <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
     </div>
     <div className="container relative mx-auto">
-      <div className="items-center flex flex-wrap">
+      <div>
         <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-          <div className="pr-12">
+          <div>
             <h1 className="text-white font-semibold text-5xl">
               Interprofessionnal Workshop Team
             </h1>
-            <p className="mt-4 text-lg text-gray-300">
+            <p className="mt-8 text-lg text-gray-300">
               We are a student association that promotes team work across different medical fields through events and workshops.
             </p>
           </div>
         </div>
 
+      <div className="flex justify-center"> 
+      <Link href="/events" className="pt-10">
+          <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-red-500 text-white hover:bg-red-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+            See Events
+          </button>
+        </Link>
+      </div>
       </div>
     </div>
     {/* <div

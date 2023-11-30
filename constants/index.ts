@@ -3,108 +3,91 @@ export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '/events', key: 'events', label: 'Events' },
   { href: '/team', key: 'team', label: 'Team' },
-  { href: '/contact', key: 'contact_us', label: 'Contact Us' },
+  { href: '/get_involved', key: 'get_involved', label: 'Get Involved' },
 ];
+
+export const EMAIL = "iwt@gmail.com"
 
 // Team
 export const BOARD = [
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
   {
     name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
-    email: "maeva.schurmann@unil.ch",
-    img_url: '/team/maeva.jpg'
-  },
-  {
-    name: 'Maéva Schürmann',
-    title: 'wambola',
-    description: "I am Thösam's girlfriend",
+    title: 'Minister',
+    description: "I am a passionate third year student in medicine. I love reading books but most importantly, I am Thösam's girlfriend !",
     email: "maeva.schurmann@unil.ch",
     img_url: '/team/maeva.jpg'
   },
 ]
 
-// CAMP SECTION
-export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
-];
-
-// FEATURES SECTION
-export const FEATURES = [
+// FAQ Scrubs Night
+export const FAQ_SCRUBS_NIGHT = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
-    description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+    question: "When do the application window open ?",
+    answer: "You will receive an email with all the necessary information 2 month before the event. So don't forget to check your mail inbox regularly !!! "
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
-    description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+    question: "When do the application window open ?",
+    answer: "You will receive an email with all the necessary information 2 month before the event. So don't forget to check your mail inbox regularly !!! "
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
-    description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+    question: "When do the application window open ?",
+    answer: "You will receive an email with all the necessary information 2 month before the event. So don't forget to check your mail inbox regularly !!! "
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
-    description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+    question: "When do the application window open ?",
+    answer: "You will receive an email with all the necessary information 2 month before the event. So don't forget to check your mail inbox regularly !!! "
   },
-];
+  {
+    question: "When do the application window open ?",
+    answer: "You will receive an email with all the necessary information 2 month before the event. So don't forget to check your mail inbox regularly !!! "
+  },
+  {
+    question: "When do the application window open ?",
+    answer: "You will receive an email with all the necessary information 2 month before the event. So don't forget to check your mail inbox regularly !!! "
+  }
+]
 
 // FOOTER SECTION
 export const SOCIALS = {
@@ -126,3 +109,55 @@ export const SOCIALS = {
     },
   ],
 };
+
+// Scrubs Night November 2023
+export const SCRUBS_NIGHT_NOVEMBER_2023 = [
+  {
+    img_url: "/events/scrubs_night/november_2023/0.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/1.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/2.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/3.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/4.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/5.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/6.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/7.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/8.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/9.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/10.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/11.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/12.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/13.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/14.jpg",
+  },
+  {
+    img_url: "/events/scrubs_night/november_2023/15.jpg",
+  },
+]
