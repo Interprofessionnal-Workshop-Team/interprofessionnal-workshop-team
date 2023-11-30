@@ -1,4 +1,5 @@
 import { BOARD } from "@/constants"
+import Image from "next/image"
 import Link from "next/link"
 
 const TeamPage = () => {
@@ -65,9 +66,9 @@ const BoardMembers = () => (
 
         {
           BOARD.map((boardMember) => (
-            <div className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
+            <div className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700" key={boardMember.name}>
               <div className="flex items-center gap-x-4">
-                <img className="rounded-2xl w-50 h-50" src={boardMember.img_url} alt={boardMember.name} />
+                <Image className="rounded-2xl w-50 h-50" src={boardMember.img_url} alt={boardMember.name} />
               </div>
               <div className="mt-3">
                 <h3 className="font-bold text-lg text-gray-800 dark:text-gray-200">

@@ -1,5 +1,6 @@
 import { Divider } from "@/components/Divider"
 import { FAQ_SCRUBS_NIGHT, SCRUBS_NIGHT_NOVEMBER_2023 } from "@/constants"
+import Image from "next/image"
 
 export default function ScrubsNight() {
     return (
@@ -123,7 +124,7 @@ const Program = () => (
                             Part 3
                         </h1>
                         <h1 className="font-semibold text-2xl">
-                            L’APÉRO
+                            L'APÉRO
                         </h1>
                         <p className="mt-4 text-lg text-gray-400 py-4">
                             Rien de mieux que de faire connaissance autour d'un verre et des snacks !
@@ -211,7 +212,7 @@ const GalleryCarousel = () => (
                         SCRUBS_NIGHT_NOVEMBER_2023.map((elt) => (
                             <>
                                 <div className="hs-carousel-slide flex justify-center p-2">
-                                    <img className="rounded-2xl w-auto h-full" src={elt.img_url} alt='img' key={elt.img_url} />
+                                    <Image className="rounded-2xl w-auto h-full" src={elt.img_url} alt='img' key={elt.img_url} />
                                 </div>
                             </>
                         ))
@@ -260,7 +261,7 @@ const FAQ = () => (
 
                     {
                         FAQ_SCRUBS_NIGHT.map((elt) => (
-                            <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-two">
+                            <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-two" key={elt.question}>
                                 <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
                                     {elt.question}
                                     <svg className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6" /></svg>
