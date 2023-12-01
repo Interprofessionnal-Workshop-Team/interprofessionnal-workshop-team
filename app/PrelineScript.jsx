@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-import {HSCopyMarkup as HSStaticMethods} from "preline";
+// import {HSCopyMarkup as HSStaticMethods} from "preline";
 
 export default function PrelineScript() {
   const path = usePathname();
