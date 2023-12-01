@@ -205,7 +205,7 @@ const GalleryCarousel = () => (
     "loadingclassNamees": "opacity-0",
     "isAutoPlay": true
   }' className="relative mb-16">
-            <div className="hs-carousel relative overflow-hidden w-full min-h-[350px] sm:min-h-[550px] bg-white rounded-lg">
+            <div className="hs-carousel relative overflow-hidden w-full min-h-[250px] sm:min-h-[350px] md:min-h-[550px] bg-white rounded-lg">
                 <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
 
                     {

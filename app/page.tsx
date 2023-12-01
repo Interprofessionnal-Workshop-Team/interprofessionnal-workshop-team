@@ -29,7 +29,7 @@ const Hero = () => (
       <div>
         <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
           <div>
-            <h1 className="text-white font-semibold text-5xl">
+            <h1 className="text-white font-semibold md:text-5xl text-4xl">
               Interprofessionnal Workshop Team
             </h1>
             <p className="mt-8 text-lg text-gray-300">
