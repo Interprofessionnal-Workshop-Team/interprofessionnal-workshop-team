@@ -211,7 +211,7 @@ const GalleryCarousel = () => (
                     {
                         SCRUBS_NIGHT_NOVEMBER_2023.map((elt) => (
                             <>
-                                <div className="hs-carousel-slide flex justify-center p-2">
+                                <div className="hs-carousel-slide flex justify-center p-2" key={elt.img_url}>
                                     <img className="rounded-2xl w-auto h-full" src={elt.img_url} alt='img' key={elt.img_url} />
                                 </div>
                             </>
